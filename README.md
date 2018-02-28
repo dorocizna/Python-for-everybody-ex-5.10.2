@@ -1,4 +1,5 @@
 # Write program that prompts for a list of numbers and at the end prints out total, count, maximum and minimum of the numbers.
+
 count = 0
 total = 0
 biggest = None
