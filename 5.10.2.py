@@ -16,10 +16,10 @@ while True :
     total = total + value
     count = count + 1
 
-for val in value :
-    if smallest is None or val < smallest :
-        smallest = val
-for val in value :
-    if smallest is None or val < smallest :
-        smallest = val
-print(total,count,biggest,smallest)
+    total = total + value
+    count = count + 1
+    if smallest is None or value < smallest :
+        smallest = value
+    if biggest is None or value > biggest :
+        biggest = value
+print(total,count,smallest,biggest)
